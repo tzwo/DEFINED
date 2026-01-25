@@ -11,8 +11,8 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch \
   --accumulation_steps 8 \
   --num_epochs 30 \
   --evaluation_steps 30 \
-  --reward_data_path ../data/creativity/v2/filtered_train.json \
-  --template_path ../evals/qwen2.5-7b.jinja \
+  --reward_data_path  \
+  --template_path  \
   --checkpoint_dir ../save/test \
-  --val_path ../data/creativity/v2/val.json\
+  --val_path \
   --oversample_k 1

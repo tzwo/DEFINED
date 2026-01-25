@@ -9,7 +9,7 @@ from peft import PeftModelForSequenceClassification
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 
-class SaMerClassifier(nn.Module):
+class DEFINEDClassifier(nn.Module):
     def __init__(self, input_dim: int, output_dim: int):
         super().__init__()
         self.scoring_layer = nn.Sequential(
@@ -83,7 +83,7 @@ def load_model_and_tokenizer(args):
     # If Scalar Custom Head mode, we must swap the head BEFORE loading adapter
     # so that PeftModel loads the weights into the correct structure.
     if is_scalar_custom:
-        head = SaMerClassifier(hidden_size, output_dim=1)
+        head = DEFINEDClassifier(hidden_size, output_dim=1)
         # Identify and replace score head
         if hasattr(base_model, "score"):
             base_model.score = head
@@ -123,7 +123,7 @@ def load_model_and_tokenizer(args):
         head_state = torch.load(rm_head_path, map_location="cpu")
         # num_labels already set above
         
-        head = SaMerClassifier(hidden_size, num_labels)
+        head = DEFINEDClassifier(hidden_size, num_labels)
         aggregator = nn.Linear(num_labels, 1, bias=False)
 
         head.load_state_dict(head_state["head"], strict=True)

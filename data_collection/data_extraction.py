@@ -151,8 +151,8 @@ def process_file(in_path: Path, out_dir: Path) -> int:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input_dir", default="dataset/debate_score/text/raw/高中组")
-    ap.add_argument("--output_dir", default="dataset/debate_score/text/scored/高中组")
+    ap.add_argument("--input_dir", default="")
+    ap.add_argument("--output_dir", default="")
     args = ap.parse_args()
     in_dir = Path(args.input_dir).expanduser().resolve()
     out_dir = Path(args.output_dir).expanduser().resolve()

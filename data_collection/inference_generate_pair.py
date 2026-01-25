@@ -24,7 +24,7 @@ def parse_args():
     parser.add_argument(
         "--match_path",
         type=str,
-        default="/Users/woyu/Desktop/learning_material/25_a/SII/edu/code/sotopia-rl/debate/match.json",
+        default="match.json",
         help="比赛数据JSON路径",
     )
     parser.add_argument("--output_path", type=str, required=True, help="生成后的输出JSON路径")
