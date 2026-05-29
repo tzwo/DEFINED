@@ -148,6 +148,6 @@ If you find this repository useful, please consider citing:
   booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
   year      = {2026},
   doi       = {10.1145/3770855.3817874},
-  address   = Jeju Island, Republic of Korea
+  address   = {Jeju Island, Republic of Korea}
 }
 ```
