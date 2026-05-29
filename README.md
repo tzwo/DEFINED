@@ -7,10 +7,9 @@ Tongzhou Yu*, Mingjia Li*, Hong Qian, Jiajun Guo, Wenkai Wang, Zongbao Zhang, Ya
 
 Nanjing University, East China Normal University, Shanghai Innovation Institute
 
-<a href='https://anonymous.4open.science/r/DEFINED/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<a href='https://github.com/tzwo/DEFINED'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <a href='DEFINED-KDD-2026.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
-
-</div>
+<img src='https://img.shields.io/badge/Accepted%20by-KDD%202026-blue' alt='Accepted by KDD 2026'>
 
 ---
 
@@ -146,6 +145,7 @@ If you find this repository useful, please consider citing:
   author    = {Yu, Tongzhou and Li, Mingjia and Qian, Hong and Guo, Jiajun and Wang, Wenkai and Zhang, Zongbao and Jiang, Yaoyu and Wang, Xiangfeng and Zhou, Aimin},
   booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
   year      = {2026},
-  doi       = {10.1145/3770855.3817874}
+  doi       = {10.1145/3770855.3817874},
+  address   = Jeju Island, Republic of Korea
 }
 ```
