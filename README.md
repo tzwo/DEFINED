@@ -11,6 +11,8 @@ Nanjing University, East China Normal University, Shanghai Innovation Institute
 <a href='DEFINED-KDD-2026.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
 <img src='https://img.shields.io/badge/Accepted%20by-KDD%202026-blue' alt='Accepted by KDD 2026'>
 
+</div>
+
 ---
 
 :sparkles: Welcome to **DEFINED**, a comprehensive repository for **fine-grained creativity assessment in debate scenarios**. This project studies how to move beyond conventional creativity tests and build an ecologically valid, data-efficient scoring framework from authentic debate data.
