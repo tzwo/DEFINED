@@ -8,7 +8,7 @@ Tongzhou Yu*, Mingjia Li*, Hong Qian, Jiajun Guo, Wenkai Wang, Zongbao Zhang, Ya
 Nanjing University, East China Normal University, Shanghai Innovation Institute
 
 <a href='https://github.com/tzwo/DEFINED'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
-<a href='DEFINED-KDD-2026.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
+<a href='paper/KDD26_DEFINED_CR.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
 <img src='https://img.shields.io/badge/Accepted%20by-KDD%202026-blue' alt='Accepted by KDD 2026'>
 
 </div>
