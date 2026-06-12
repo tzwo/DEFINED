@@ -1,16 +1,17 @@
 <div align='center'>
 <h1>DEFINED: A Data-Efficient Computational Framework for Fine-Grained Creativity Assessment in Debate Scenarios</h1>
 
-Tongzhou Yu*, Mingjia Li*, Hong Qian, Jiajun Guo, Wenkai Wang, Zongbao Zhang, Yaoyu Jiang, Xiangfeng Wang, and Aimin Zhou
+KDD 2026
 
-\*Equal contribution. Hong Qian is the corresponding author.
+Tongzhou Yu<sup>a,c,\*</sup>, Mingjia Li<sup>b,\*</sup>, Hong Qian<sup>b,c,†</sup>, Wenkai Wang<sup>b</sup>, Zongbao Zhang<sup>b,c</sup>, Yaoyu Jiang<sup>b</sup>, Xiangfeng Wang<sup>b</sup>, Aimin Zhou<sup>b,c</sup> and Jiajun Guo<sup>b</sup>
 
-Nanjing University, East China Normal University, Shanghai Innovation Institute
+\*Equal contribution. †Corresponding author.
+
+<sup>a</sup>Nanjing University, <sup>b</sup>East China Normal University, <sup>c</sup>Shanghai Innovation Institute
 
 <a href='https://github.com/tzwo/DEFINED'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <a href='paper/KDD26_DEFINED_CR.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
 <a href='https://arxiv.org/abs/2606.07226'><img src='https://img.shields.io/badge/arXiv-2606.07226-b31b1b' alt='arXiv:2606.07226'></a>
-<img src='https://img.shields.io/badge/Accepted%20by-KDD%202026-blue' alt='Accepted by KDD 2026'>
 
 </div>
 
@@ -144,11 +145,10 @@ If you find this repository useful, please consider citing:
 
 ```bibtex
 @inproceedings{DEFINED2026kdd,
-  title     = {DEFINED: A Data-Efficient Computational Framework for Fine-Grained Creativity Assessment in Debate Scenarios},
-  author    = {Yu, Tongzhou and Li, Mingjia and Qian, Hong and Guo, Jiajun and Wang, Wenkai and Zhang, Zongbao and Jiang, Yaoyu and Wang, Xiangfeng and Zhou, Aimin},
-  booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+  title     = {{DEFINED}: {A} Data-Efficient Computational Framework for Fine-Grained Creativity Assessment in Debate Scenarios},
+  author    = {Tongzhou Yu and Mingjia Li and Hong Qian and Wenkai Wang and Zongbao Zhang and Yaoyu Jiang and Xiangfeng Wang and Aimin Zhou and Jiajun Guo},
+  booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)},
   year      = {2026},
-  doi       = {10.1145/3770855.3817874},
   address   = {Jeju Island, Republic of Korea}
 }
 ```
