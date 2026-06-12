@@ -10,7 +10,7 @@ Tongzhou Yu<sup>a,c,\*</sup>, Mingjia Li<sup>b,\*</sup>, Hong Qian<sup>b,c,†</
 <sup>a</sup>Nanjing University, <sup>b</sup>East China Normal University, <sup>c</sup>Shanghai Innovation Institute
 
 <a href='https://github.com/tzwo/DEFINED'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
-<a href='paper/KDD26_DEFINED_CR.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
+<a href='paper/DEFINED.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
 <a href='https://arxiv.org/abs/2606.07226'><img src='https://img.shields.io/badge/arXiv-2606.07226-b31b1b' alt='arXiv:2606.07226'></a>
 
 </div>
